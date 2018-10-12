@@ -11,6 +11,8 @@ public class GuessingGame {
         System.out.print("Which game type do you want to play?");
         System.out.print("Type in Type 1 if you want to guess numbers from 1-10");
         System.out.print("Type in Type 2 if you want to guess numbers from 1-100");
+        System.out.print("Type in Type 3 if you want to guess numbers from 1-1000");
+        System.out.print("Type in Type 4 if you want to guess number from 1-10000");
 
         String difft=input.nextLine();
         if(difft=="Type 1"||difft=="type 1")
